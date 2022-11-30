@@ -1,0 +1,60 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+}
+.whoArewe{
+    width: 80%;
+    line-height: 23px;
+}
+.contacts{
+    background-color: rgb(237, 240, 249);
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+    padding: 10px;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 30%;
+    font-size: 20px;
+}
+.nums{
+    display: flex;
+    
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nums a{
+    text-decoration: none;
+    
+}
+@media screen and (max-width:930px) {
+    .contacts{
+        flex-direction: column;
+    }
+    .nums{
+        width: 100%;
+        margin: 10px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .contacts{
+        width: 100%;
+    }
+    .nums{
+        width: 95%;
+        
+    }
+    
+}

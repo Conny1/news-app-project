@@ -1,0 +1,54 @@
+*{
+    /* outline: 1px solid red; */
+}
+.news{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.image{
+    width: 37%;
+}
+img{
+    width: 100%;
+    
+}
+.content{
+    width: 20%;
+    flex: 1;
+
+}
+.content h2{
+    font-size: 25px;
+
+}
+.caltegories{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+   
+}
+.caltegories button {
+    background-color: rgb(237, 240, 249);
+    padding: 10px;
+    border: none;
+  
+
+}
+.caltegories button.active{
+    background-color: black;
+}

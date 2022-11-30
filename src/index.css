@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+  
+
+}
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  height: auto;
+  background-color: rgb(237, 240, 249);
+  
+  
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
